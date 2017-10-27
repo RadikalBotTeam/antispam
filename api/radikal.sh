@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/MaTaDoR/api
+cd $HOME/antispam/api
 
 install() {
 		sudo apt-get update
@@ -29,7 +29,7 @@ elif [ "$1" = "update" ]; then
 	update
 	exit 1
 else
-	green "MaTaDoR Api Bot running..."
+	green "antispam Api Bot running..."
 	#sudo service redis-server restart
 	lua ./bot/bot.lua
 fi
