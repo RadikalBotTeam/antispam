@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/MaTaDoR/cli
+cd $HOME/RadikalBot/cli
 
 install() {
 	    cd tg
