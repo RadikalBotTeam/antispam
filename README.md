@@ -13,7 +13,7 @@
 </h3>
 <hr>
 </pre>
-<h4 dir="rtl">پیش نیاز های سورس ماتادور =))
+<h4 dir="rtl">پیش نیاز های سورس رادیڪال بوت =))
 </h4>
 <pre>
 <span>
@@ -28,7 +28,7 @@ cd ..
 <br></h4>
 <h6 dir="rtl"></h6>
 <pre>
-<span>cd $HOME && git clone https://github.com/MaTaDoRTeaM/MaTaDoR</span>
+<span>cd $HOME && git clone https://github.com/RadikalBotTeam/antispam</span>
 </pre>
 
 
@@ -37,7 +37,7 @@ cd ..
 
 ###  Telegram channel:
 
-# [MaTaDoRTeaM](https://telegram.me/MaTaDoRTeaM)
+# [RadikalBotTM](https://telegram.me/RadikalBotTM)
 
 * * *
 》*Please send us your stars☆ at the top of this page*
