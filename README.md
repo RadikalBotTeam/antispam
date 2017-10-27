@@ -7,7 +7,7 @@
         <img src="http://upir.ir/951/guest/Untitled-6.png" width="150">
     </a>
 </div>
-<a href="https://telegram.me/matadorteam"><font size="100">MaTaDoR BoT v5.7</font></a>
+<a href="https://telegram.me/matadorteam"><font size="100">RadikalBot v5.7</font></a>
 <br>
 <h3 align="right"> <strong></strong>
 </h3>
