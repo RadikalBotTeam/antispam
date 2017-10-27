@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/RadikalBot/cli
+cd $HOME/antispam/cli
 
 install() {
 	    cd tg
