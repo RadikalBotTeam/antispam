@@ -4083,10 +4083,10 @@ if matches[1] == "setlang" and is_owner(msg) or matches[1] == "تنظیم زبا
 local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
  redis:del(hash)
-return "_gяøυρ lαиgυαge šeт тø:_ EN✅\n*øяđeявч*: [@"..check_markdown(msg.from.username or "MahDiRoO").."]\n @MaTaDoRTeaM"
+return "_gяøυρ lαиgυαge šeт тø:_ EN✅\n*øяđeявч*: [@"..check_markdown(msg.from.username or "MahDiRoO").."]\n @RadikalBotTM"
   elseif matches[2] == "fa" or matches[2] == "فارسی" then
 redis:set(hash, true)
-return "*زبان گروه تنظیم شد به : فارسی*\nسفارش توسط : [@"..check_markdown(msg.from.username or "MahDiRoO").."]\n‌ @MaTaDoRTeaM"
+return "*زبان گروه تنظیم شد به : فارسی*\nسفارش توسط : [@"..check_markdown(msg.from.username or "MahDiRoO").."]\n‌ @RadikalBotTM"
 end
 end
 
@@ -4177,7 +4177,7 @@ tdcli.getInlineQueryResults(helper_id, msg.to.id, 0, 0, msg.to.id, 0, inline_que
 end
 if matches[1] == "help" and is_mod(msg) or matches[1] == "Help" and is_mod(msg) or matches[1] == "راهنما" and is_mod(msg) then
 if not lang then
-text = [[🔖*нєℓρ MαƬαƊσR Ɓσт*
+text = [[🔖*нєℓρ яα∂ιкαℓвσт*
 ⚡️*тo ѕee тнe coммαɴdѕ oғ yoυr deѕιred ιтeм ѕυвмιт*
 🌐 _ҽɳɠʅιʂԋ cσɱɱαɳԃʂ :_
 👆 `To Get Help Sudo`
@@ -4202,11 +4202,11 @@ text = [[🔖*нєℓρ MαƬαƊσR Ɓσт*
 _To Change The LanGuage_ 
 *Setlang* `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 elseif lang then
-text = [[🔖*нєℓρ MαƬαƊσR Ɓσт*
+text = [[🔖*нєℓρ яα∂ιкαℓвσт*
 ⚡️*برای دیدن دستورات مورد نظر خود ، مورد دلخواه را ارسال کنید*
 💠_دستورات فارسی :_
 🎗*👉  راهنمای سودو۰*
@@ -4231,8 +4231,8 @@ text = [[🔖*нєℓρ MαƬαƊσR Ɓσт*
 _برای تغییر زبان_
  *تنظیم زبان* `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4240,7 +4240,7 @@ end
 
 if matches[1] == "sudohelp" and is_mod(msg) or  matches[1] == "Sudohelp" and is_mod(msg) or  matches[1] == "راهنمای سودو" and is_mod(msg) then
 text = [[
-🔖*нєℓρ MαƬαƊσR Ɓσт*
+🔖*нєℓρ яα∂ιкαℓвσт*
 ⚡️*тo ѕee тнe coммαɴdѕ oғ yoυr deѕιred ιтeм ѕυвмιт*
 🌐 _ҽɳɠʅιʂԋ cσɱɱαɳԃʂ :_
 *Visudo* `[username|id|reply]`
@@ -4315,8 +4315,8 @@ text = [[
 _To Change The LanGuage_ 
 *Setlang* `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 return text
 end
@@ -4334,8 +4334,8 @@ text = [[
  *⌨️ LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
  ]]
 elseif lang then
 text = [[
@@ -4348,8 +4348,8 @@ text = [[
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4367,8 +4367,8 @@ text = [[
  *⌨️ LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 elseif lang then
 text = [[
@@ -4380,8 +4380,8 @@ text = [[
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4451,8 +4451,8 @@ text = [[
  *⌨️ LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 elseif lang then
 text = [[
@@ -4515,8 +4515,8 @@ text = [[
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4563,8 +4563,8 @@ _Tr en سلام_
  *⌨️ LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 elseif lang then
 text = [[
@@ -4606,8 +4606,8 @@ _ترجمه en سلام_
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4617,7 +4617,7 @@ end
 if matches[1] == "nerkh" or matches[1] == "Nerkh" or matches[1] == "نرخ" then
 text = [[
 `💵 نرخ فروش گروه با ربات`
-*🔖MαƬαƊσR Ɓσт тɢ 💤*
+*🔖яα∂ιкαℓвσт тɢ 💤*
 ✳️_برای گروه های 0 تا 500 نفر ‌_
 `➰1 ماهه  5 هزار تومان`
 `➰3 ماهه 12 هزار تومان`
@@ -4639,9 +4639,9 @@ text = [[
 3⃣._ربات داعمی نداریم به علت کیفیت و کارای بالای ربات._
 *________________*
 *برای خرید به ایدی زیر مراجعه کنید :*
-🆔: @MahDiRoO
+🆔: @ariasudo
 *و اگر ریپورت هستید به :*
-🆔: @MahDiRoOBoT
+🆔: @ariasudoBoT
 ]]
 return text
 end
@@ -4656,7 +4656,7 @@ end
 if matches[1] == "mutetimehelp" or matches[1] == "Mutetimehelp" or matches[1] == "راهنمای بیصدازمانی" then
 if not lang then
 text = [[
-̶M̶α̶Ƭ̶α̶Ɗ̶σ̶R̶ ̶M̶υ̶т̶є̶т̶ι̶м̶є̶ ̶Ƈ̶σ̶м̶м̶α̶η̶ɗ̶ѕ:
+яα∂ιкαℓвσт ̶M̶υ̶т̶є̶т̶ι̶м̶є̶ ̶Ƈ̶σ̶м̶м̶α̶η̶ɗ̶ѕ:
 *⚡️тo ѕee тнe coммαɴdѕ oғ yoυr deѕιred ιтeм ѕυвмιт*
 🌐 ҽɳɠʅιʂԋ cσɱɱαɳԃʂ :
 *👉 Mute all*
@@ -4681,8 +4681,8 @@ text = [[
 _To Change The LanGuage_
 *👉 Setlang* [en , fa]
 ➖➖➖
-👤 ρσωєяɗ Ɓу : @MahDiRoO
-🗣 ƇнαηηєƖ : @MaTaDoRTeaM
+👤 ρσωєяɗ Ɓу : @ariasudo
+🗣 ƇнαηηєƖ : @RadikalBotTM
 ]]
 elseif lang then
 text = [[
@@ -4701,8 +4701,8 @@ Unmute group at this time
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4711,7 +4711,7 @@ end
 if matches[1] == "nerkh" or matches[1] == "Nerkh" or matches[1] == "نرخ" then
 text = [[
 `💵 نرخ فروش گروه با ربات`
-*🔖MataDoRboT тɢ 💤*
+*🔖яα∂ιкαℓвσт тɢ 💤*
 
 ✳️_برای گروه های 0 تا 500 نفر ‌_
 `➰1 ماهه  5 هزار تومان`
@@ -4740,9 +4740,9 @@ text = [[
 3⃣._ربات داعمی نداریم به علت کیفیت و کارای بالای ربات._
 *________________*
 *برای خرید به ایدی زیر مراجعه کنید :*
-🆔: @MahDiRoO
+🆔: @ariasudo
 *و اگر ریپورت هستید به :*
-🆔: @MahDiRoO\_BoT
+🆔: @ariasudoBoT
 ]]
 return text
 end
